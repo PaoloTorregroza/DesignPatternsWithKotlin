@@ -6,4 +6,4 @@
    ## Actuall implementations 
    
    #### Strategy
-   [Strategy](./src/strategy/STRATEGY.md) (src/strategy/) 
+   [Strategy](./src/strategy/) (src/strategy/) 
