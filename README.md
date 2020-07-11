@@ -12,3 +12,8 @@ Defines a family of algorithms, encapsulates each one, and
 makes them interchangeable. Strategy lets the algorithm
 vary independently from clients that use it.
 
+### Observer
+[Observer](./src/observer) (src/observer)
+Defines a one-to-many dependency between objects so that one object
+changes state, all its dependents are notified and updates 
+automatically
