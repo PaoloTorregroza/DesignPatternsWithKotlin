@@ -1,17 +1,12 @@
-# Strategy design pattern
+# Observer design pattern
 
-The Strategy Pattern defines a family of algorithms,
-encapsulates each one, and makes them interchangeable. Strategy
-lets the algorithm vary independently from clients that use it.
+Defines a one-to-many dependency between objects so that one object
+changes state, all its dependents are notified and updates 
+automatically
 
 ### My example
-I have to define some characters and their weapons, but it is 
-bad to have a lot of classes whit the same function "fight".
-
-So I made an interface called WeaponBehavior and use it in
-different classes that makes their own implementation of it
-like AxeBehavoir for example.
-
-Then I made a super class called character, and the different
-character types inherit from it and implements a specific 
-behavior.
+In the village where you live, dragons, orcs, 
+or other threats to cause trouble occasionally 
+come. The guard who is all day in the tower observing
+the surroundings has to warn the villagers and the 
+guards if there are any upcoming threats or not.
