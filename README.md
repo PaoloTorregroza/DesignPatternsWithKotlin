@@ -25,3 +25,16 @@ automatically
 Attach additional responsibilities to an object dynamically.
 Decorators provide a flexible alternative to subclassing for 
 extending functionality.
+
+### Factory
+[Simple Factory](./src/SimpleFactory) (src/SimpleFactory)
+
+[Factory](./src/factory) (src/factory)
+
+The simple factory isn't a design pattern, Is more like a
+programming idiom. The simple factory is a good way to
+understand the Factory design pattern.
+
+The factory method pattern defines an interface for creating 
+an object, but lets subclasses decide which class to instantiate. 
+Factory method lets a class defer instantiation to subclasses.
